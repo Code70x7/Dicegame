@@ -7,7 +7,6 @@
 .dice {
   text-align: center;
   display: inline-block;
-
 }
 
 body {
@@ -15,21 +14,22 @@ body {
 }
 
 h1 {
-  margin: 30px;
+  margin: 20px;
   font-family: 'Lobster', cursive;
-  text-shadow: 5px 0 #232931;
-  font-size: 6rem;
+  text-shadow: 3px 0 #232931;
+  font-size: 4rem;
   color: #4ECCA3;
 }
 
 p {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #4ECCA3;
   font-family: 'Indie Flower', cursive;
 }
 
 img {
-  width: 80%;
+  width: 90%;
+  max-width: 400px;
 }
 
 footer {
@@ -37,16 +37,16 @@ footer {
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
-
 }
-.button button{
-  margin-top: 50px;
-  width: 150px;
-  height: 60px;
-  border-radius: 25px;
+
+.button button {
+  margin-top: 30px;
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
   background-color: #4ECCA3;
   color: #ffffff;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: bold;
   border: none;
   cursor: pointer;
@@ -58,4 +58,25 @@ footer {
 
 .button button:active {
   background-color: #89b1a4;
+}
+
+/* Media Query for phone screens */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  img {
+    max-width: 200px;
+  }
+
+  .button button {
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+  }
 }
