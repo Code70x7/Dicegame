@@ -1,5 +1,5 @@
 .container {
-  width: 70%;
+  width: 100%;
   margin: auto;
   text-align: center;
 }
@@ -39,7 +39,23 @@ footer {
   font-family: 'Indie Flower', cursive;
 
 }
-.button {
-  text-align: center;
-  margin-top: 30px;
+.button button{
+  margin-top: 50px;
+  width: 150px;
+  height: 60px;
+  border-radius: 25px;
+  background-color: #4ECCA3;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.button button:hover {
+  background-color: #8f8283;
+}
+
+.button button:active {
+  background-color: #89b1a4;
 }
